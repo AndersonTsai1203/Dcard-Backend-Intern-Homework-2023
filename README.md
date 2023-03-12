@@ -10,6 +10,7 @@
   - 情境
     - 假設 Dcard 的個人化推薦文章列表(也就代表每個 user 會有自己的列表)是用 “共用的 Key-Value 列表系統” 來實作的,內部的算法 team 會 call API 一小時更新一次列表,所以要需要考慮使用量可能會很大
   - 需求:
+    - 請以 golang 進行開發
     - 設計與實作 RESTful API
       - Get Head / Get Page API
       - Set 的 API 可以思考一下怎麼設計比較方便使用
