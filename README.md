@@ -16,7 +16,7 @@
       - Set 的 API 可以思考一下怎麼設計比較方便使用
       - 文章提到的壓縮部份可以先不處理因為是共用 module,實際不會直接對 end-user,因此可以先不用考慮 auth
       - storage 的選擇,文章內是提到 PostgreSQL,但不一定要用 PostgreSQL,請在 README.md 裡面說明一下選擇是理由。如果一樣用 PostgreSQL,也還是需說明一下原因
-      - 每個列表的內容只須要保留一天,但是為了避免 storage 儲存太多請清掉不用內容,可以想想除了一筆筆刪之外怎麼清除更有效率 ?
+      - **每個列表的內容只須要保留一天,但是為了避免 storage 儲存太多請清掉不用內容,可以想想除了一筆筆刪之外怎麼清除更有效率 ?**
     - **請寫相對應的 unit test**
   - Bonus
     - 對內 Set 相關的 API 不一定要用 RESTful API 來進行溝通,也可以像文章提到的 gRPC Bidirectional Streaming 的方式,或者有其他的想法都可以實作看看
